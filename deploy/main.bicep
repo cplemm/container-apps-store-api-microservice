@@ -1,5 +1,6 @@
 param location string = resourceGroup().location
-param environmentName string = 'env-${uniqueString(resourceGroup().id)}'
+//param environmentName string = 'env-${uniqueString(resourceGroup().id)}'
+param environmentName string = 'clemmacaenv2'
 
 param minReplicas int = 0
 
